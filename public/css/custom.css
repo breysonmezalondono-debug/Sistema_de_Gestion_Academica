@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background:linear-gradient(135deg,#050505,#111827,#0f172a,#000);
+    background:linear-gradient(135deg,#000000,#050A12,#0A1018,#000000);
 
 }
 
@@ -104,7 +104,7 @@ outline:none;
 
 background:rgba(255,255,255,.18);
 
-box-shadow:0 0 12px #00d4ff;
+    box-shadow:0 0 12px #0A66C2;
 
 }
 
@@ -118,7 +118,7 @@ border:none;
 
 border-radius:12px;
 
-background:linear-gradient(90deg,#00c6ff,#0072ff);
+background:linear-gradient(90deg,#0A66C2,#0A2540);
 
 color:white;
 
@@ -138,12 +138,12 @@ button:hover{
 
 transform:translateY(-3px);
 
-box-shadow:0 0 20px #00c6ff;
+    box-shadow:0 0 20px #0A66C2;
 
 }
 
 button[type="submit"]{
-    background:linear-gradient(90deg,#00c6ff,#0072ff);
+    background:linear-gradient(90deg,#0A66C2,#0A2540);
 }
 
 button:not([type="submit"]){
@@ -219,7 +219,7 @@ small.action-links{
 }
 
 small.action-links a{
-    color:#9adfff;
+    color:#5B8FCC;
     text-decoration:none;
     padding:6px 12px;
     border-radius:6px;
@@ -230,7 +230,7 @@ small.action-links a{
 
 small.action-links a:hover{
     background:rgba(154,223,255,.2);
-    color:#00d4ff;
+    color:#0A66C2;
 }
 
 /* Estilos para la página de inicio */
@@ -252,7 +252,7 @@ small.action-links a:hover{
 .home-header h1{
     font-size:48px;
     margin-bottom:15px;
-    background:linear-gradient(135deg,#00c6ff,#0072ff);
+    background:linear-gradient(135deg,#0A66C2,#0A2540);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
@@ -261,7 +261,7 @@ small.action-links a:hover{
 
 .home-header p{
     font-size:18px;
-    color:#9adfff;
+    color:#6BA3E0;
     font-weight:300;
 }
 
@@ -314,7 +314,7 @@ small.action-links a:hover{
 .home-card a{
     display:inline-block;
     padding:12px 28px;
-    background:linear-gradient(90deg,#00c6ff,#0072ff);
+    background:linear-gradient(90deg,#0A66C2,#0A2540);
     color:white;
     text-decoration:none;
     border-radius:10px;
@@ -325,7 +325,7 @@ small.action-links a:hover{
 
 .home-card a:hover{
     transform:translateY(-2px);
-    box-shadow:0 8px 20px rgba(0,198,255,.4);
+    box-shadow:0 8px 20px rgba(10,102,194,.4);
 }
 
 .home-footer{
